@@ -2,7 +2,7 @@
   <div class="flex flex-wrap gap-4 items-center">
     <el-select-v2
       v-model="value"
-      :options="options"
+      :options="initials"
       placeholder="Please select"
       size="large"
       style="width: 240px"
